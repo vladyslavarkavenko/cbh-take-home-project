@@ -1,0 +1,1 @@
+exports.stringify = data => typeof data === "function" ? String(data) : JSON.stringify(data);
